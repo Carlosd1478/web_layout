@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar  */
+nav {
+    background-color: darkgray;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav h1 {
+    color: white;
+    margin-left: 150px;
+}
+
+nav ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 400px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button {
+    margin-right: 100px;
+}
+
+/* main content  */
+.main-content {
+    background-color: purple;
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+/* left column  */
+.left-column {
+    background-color: aqua;
+    width: 600px;
+    height: 900px;
+    margin-right: 40px;
+}
+
+/* profile card */
+.profile-card {
+    background-color: darkred ;
+    width: 600px;
+    height: 500px;
+}
+
+/* education section  */
+.education {
+    background-color: pink;
+    width: 600px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+/* right column  */
+.right-column {
+    background-color: green;
+    width: 400px;
+    height: 900px;
+}
+
+/* connection request  */
+.connection-requests {
+    background-color: orange;
+    width: 400px;
+    height: 350px;
+}
+
+/* your connections section  */
+.your-connections {
+    background-color: darkblue;
+    height: 500px;
+    width: 400px;
+    margin-top: 40px;
+}

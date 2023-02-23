@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    
+
+}
+
+/* nav bar  */
+nav {
+    background-color: skyblue;
+    color: white;
+    height: 100px;
+}
+
+/* sub header section  */
+.sub-header {
+    background-color: orange;
+    height: 100px;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+/* weather card section  */
+.weather-card-section {
+    background-color: green;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-card {
+    width: 165px;
+    height: 350px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+/* cookie section  */
+.cookie-section {
+    background-color: blue;
+    height: 150px;
+    width: 700px;
+    position: fixed;
+    left: 148px;
+
+}
